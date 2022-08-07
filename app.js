@@ -3,7 +3,22 @@ const display = document.querySelector("#display-field");
 const numbers = document.querySelectorAll(".number");
 const operators = document.querySelectorAll(".operator");
 const clearBtn = document.querySelector(".clear");
-console.log(clearBtn);
+
+// operatoration 
+const add = () => {
+
+}
+
+const subtract = () => {
+
+}
+
+const multiply = () => {
+
+}
+const divide = () => {
+
+}
 
 // a function that evaluates expressions & displays the results on the screen
 const evaluate = () => {
