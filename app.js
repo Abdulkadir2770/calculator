@@ -30,7 +30,7 @@ const populateDisplay = () => {
 
     numbers.forEach((number) => {
         number.addEventListener("click", (e) => {
-            display.textContent = e.target.innerText;
+            display.textContent = e.target.textContent;
         })
     })
 }
