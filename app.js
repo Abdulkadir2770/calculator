@@ -24,10 +24,10 @@ const divide = () => {
 
 // operation
 const operation = (operator, num1, num2) => {
-    return `${num1} ${operator} ${num2}`;
+    return `${num2} ${operator} ${num2}`;
 }
 
-console.log(operation("+", 2, 4));
+console.log(operation(divide(), 2, 4));
 
 let displayValue;
 
