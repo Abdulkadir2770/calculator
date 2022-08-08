@@ -22,6 +22,10 @@ const divide = () => {
     return "/";
 }
 
+const equals = () => {
+    return "";
+}
+
 // operation
 const operation = (operator, num1, num2) => {
     return `${num2} ${operator} ${num2}`;
@@ -29,9 +33,16 @@ const operation = (operator, num1, num2) => {
 
 console.log(operation(divide(), 2, 4));
 
-let displayValue;
+// a function that evaluates expressions & displays the results on the screen
+const evaluate = () => {
+    // figure out how to turn a string char into a number
+
+    // reject none number characters
+}
 
 const populateDisplay = () => {
+    let displayValue;
+
     // numbers
     numbers.forEach((number) => {
         number.addEventListener("click", (e) => {
@@ -58,10 +69,3 @@ const populateDisplay = () => {
 }
 
 populateDisplay();
-
-// a function that evaluates expressions & displays the results on the screen
-const evaluate = () => {
-    // figure out how to turn a string char into a number
-
-    // reject none number characters
-}
